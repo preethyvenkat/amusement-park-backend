@@ -1,0 +1,82 @@
+[
+    {
+        "ride_id": "R101",
+        "ride_name": "Thunder Mountain",
+        "launch_time": "2025-07-19T10:00:00",
+        "guest_name": "Stephen",
+        "guest_phone": "123-456-0001",
+        "alert_type": "boarding",
+        "status": "confirmed",
+        "message": "Boarding now at Gate 3"
+    },
+    {
+        "ride_id": "R102",
+        "ride_name": "Splash Voyage",
+        "launch_time": "2025-07-19T10:15:00",
+        "guest_name": "Alice",
+        "guest_phone": "123-456-0002",
+        "alert_type": "late_arrival",
+        "status": "pending",
+        "message": "Guest arrival delayed by 5 minutes"
+    },
+    {
+        "ride_id": "R103",
+        "ride_name": "Sky Drop",
+        "launch_time": "2025-07-19T10:30:00",
+        "guest_name": "Pradeep",
+        "guest_phone": "123-456-0003",
+        "alert_type": "boarding",
+        "status": "confirmed",
+        "message": "Proceed to Zone A for boarding"
+    },
+    {
+        "ride_id": "R104",
+        "ride_name": "Galaxy Coaster",
+        "launch_time": "2025-07-19T10:45:00",
+        "guest_name": "Mary",
+        "guest_phone": "123-456-0004",
+        "alert_type": "priority",
+        "status": "confirmed",
+        "message": "Priority boarding enabled for VIP guest"
+    },
+    {
+        "ride_id": "R105",
+        "ride_name": "Mystery Maze",
+        "launch_time": "2025-07-19T11:00:00",
+        "guest_name": "Raja",
+        "guest_phone": "123-456-0005",
+        "alert_type": "boarding",
+        "status": "cancelled",
+        "message": "Ride cancelled due to technical issue"
+    },
+    {
+        "ride_id": "R106",
+        "ride_name": "Jungle Safari",
+        "launch_time": "2025-07-19T11:15:00",
+        "guest_name": "Chris",
+        "guest_phone": "123-456-0006",
+        "alert_type": "late_arrival",
+        "status": "pending",
+        "message": "Alert guest to reach dock area within 10 mins"
+    },
+    {
+        "ride_id": "R107",
+        "ride_name": "Haunted Mansion",
+        "launch_time": "2025-07-19T11:30:00",
+        "guest_name": "Robert",
+        "guest_phone": "123-456-0007",
+        "alert_type": "boarding",
+        "status": "confirmed",
+        "message": "Boarding now. Proceed to Zone C"
+    },
+    {
+        "ride_id": "R108",
+        "ride_name": "Rocket Loop",
+        "launch_time": "2025-07-19T11:45:00",
+        "guest_name": "Evan",
+        "guest_phone": "123-456-0008",
+        "alert_type": "priority",
+        "status": "confirmed",
+        "message": "Rocket Loop VIP confirmed for launch"
+    }
+]

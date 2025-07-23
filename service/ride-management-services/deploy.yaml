@@ -1,0 +1,44 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: ride-eligibility
+  labels:
+    env: prod
+    app: ride-api
+spec:
+  replicas : 3
+  selector:
+    matchLabels:
+      app : ride-api
+  template:
+    metadata:
+      labels:
+        app: ride-api
+        env: prod
+    spec:
+      containers:
+        - name : ride-eligibility
+          image: amusement/eligibility:1
+          ports:
+            - containerPort:  3000
+
+---
+apiVersion : apps/v1
+kind: Service
+metadata:
+  name: ride-eligibility-service
+  labels:
+    app: ride-api
+    env: prod
+spec:
+  selector:
+    labels:
+      app: ride-api
+  template:
+    labels:
+      app: ride-api
+      env: prod
+    type: NodePort
+    ports:
+      - port: 3000
+      - NodePort : 32005
